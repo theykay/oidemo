@@ -1,0 +1,9 @@
+{
+  "name": "oidemo",
+  "version": "1.0.0",
+  "description": "Demo site for OI",
+  "main": "index.js",
+  "repository": "https://github.com/theykay/oidemo.git",
+  "author": "theyKay",
+  "license": "MIT"
+}
