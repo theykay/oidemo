@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+// colors
+$title: #040503;
+$body: #515151;
+$white: #ffffff;
+$background: #e2e3e2;
+$green: #21ba9e;
+$lgreen: #7bcbbb;
+// fonts
+$mainText: 'Lato';
+// weights
+$thinWeight: 100;
+$lightWeight: 300;
+$normalWeight: 400;
+$boldWeight: 700;
+// Desktop
+$deskDisplay: 64px;
+$deskH1: 56px;
+$deskH2: 48px;
+$deskH3: 32px;
+$deskH4: 24px;
+$deskH5: 18px;
+$deskBody: 18px;
+$deskCaption: 14px;
+$deskButton: 18px;
+$deskTextLink: 24px;
+// Mobile
+$mobileDisplay: 56px;
+$mobileH1: 48px;
+$mobileH2: 40px;
+$mobileH3: 26px;
+$mobileH4: 23px;
+$mobileH5: 20px;
+$mobileBody: 18px;
+$mobileCaption: 16px;
+$mobileButton: 18px;
+$mobileTextLink: 24px;
+
+// global
+body {
+  font-family: $mainText;
+}
+
+// mobile
+@media (max-width: 480px) {
+  .display {
+    font-size: $mobileDisplay;
+  }
+}
+
+// tablet
+@media (max-width: 768px) {
+
+}
+
+// desktop
+@media (min-width: 769px) {
+  .display {
+    font-size: $deskDisplay;
+  }
+}
