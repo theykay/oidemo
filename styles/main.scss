@@ -15,7 +15,7 @@ $lightWeight: 300;
 $normalWeight: 400;
 $boldWeight: 700;
 // Desktop
-$deskDisplay: 64px;
+$deskDisplay: 64p;
 $deskH1: 56px;
 $deskH2: 48px;
 $deskH3: 32px;
@@ -37,6 +37,11 @@ $mobileCaption: 16px;
 $mobileButton: 18px;
 $mobileTextLink: 24px;
 
+@mixin text($color: $body, $size: 18px, $weight: 400) {
+  color: $color;
+  font-size: $size;
+  // font-weight: $weight;
+}
 // global
 body {
   font-family: $mainText;
@@ -45,7 +50,7 @@ body {
 // mobile
 @media (max-width: 480px) {
   .display {
-    font-size: $mobileDisplay;
+    @include text($title, $mobileDisplay)
   }
 }
 
