@@ -47,6 +47,10 @@ body {
   font-family: $mainText;
 }
 
+.hero-banner {
+  background-image: url('../Assets/IconsImages/img-hero-banner.jpg');
+}
+
 // mobile
 @media (max-width: 480px) {
   .display {
